@@ -1,0 +1,423 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+html {
+    background-color: #F2F2F2;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000;
+    background-color: #fff;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.button {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    background-color: #756157;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+/* Главная страница, хедер */
+.header {
+/*по сути хедер, футер и мэйн уже обёрнуты в общий блок - боди, и белый фон уже задан для него, поэтому удалила отсюда чёрный цвет текста и белый фон*/
+}
+
+.navigation-list {
+    list-style: none;
+}
+
+.navigation-link {
+    font-size: 20px;
+    line-height: 24px;
+    color: inherit;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Основной раздел */
+.main-page {
+    color: inherit;
+    /*по сути хедер, футер и мэйн уже обёрнуты в общий блок - боди, и белый фон уже задан для него, поэтому удалила отсюда белый фон*/
+}
+
+/*Для "небольношй городок, заслуживающий большего" и "приезжайте отдохнуть"*/
+.greeting-description {
+    text-align: center;
+    background-color: #333;
+    background-image: url("../images/mountains-background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.greeting-title {
+    color: inherit;
+    /*по сути хедер, футер и мэйн уже обёрнуты в общий блок - боди, и белый фон уже задан для него, поэтому удалила отсюда белый фон*/
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.greeting-text {
+    color: #333;
+    /*по сути хедер, футер и мэйн уже обёрнуты в общий блок - боди, и белый фон уже задан для него, поэтому удалила отсюда белый фон*/
+    font-size: 22px;
+    line-height: 26px;
+}
+
+/* список преимуществ */
+
+.advantages-list {
+    list-style: none;
+}
+
+.advantages-item {
+    width: 400px;
+    height: 385px;
+    background-color: #82B3D3;
+    color: #fff;
+}
+
+.advantages-item-square,
+.advantages-item-tourist {
+    background-color: rgba(131, 179, 211, 0.12);
+    color: #000;
+}
+
+.advantages-item-road {
+    background-color: rgba(131, 179, 211, 0.2);
+    color: #000;
+}
+
+.advantages-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.advantages-description {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.advantages-description-square,
+.advantages-description-road,
+.advantages-description-tourist {
+    color: #333;
+}
+/* фон для "Приезжайте в Седону отдохнуть в комфорте и уюте!" */
+.greeting-description-white {
+    background-color: white;
+    text-align: center;
+}
+/* cписок features */
+
+.features-list {
+    list-style: none;
+}
+
+.features-item {
+    width: 400px;
+    height: 385px;
+    background-color: rgba(131, 179, 211, 0.12);
+    color: #000;
+}
+
+.features-item-food {
+    background-color: #fff;
+    color: #000;
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.features-description {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #333;
+}
+
+/* поиск гостиницы */
+
+.search {
+    text-align: center;
+}
+
+.search-title {
+    color: inherit;
+    /*по сути хедер, футер и мэйн уже обёрнуты в общий блок - боди, и белый фон уже задан для него, поэтому удалила отсюда белый фон*/
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.search-text {
+    color: #333;
+    /*по сути хедер, футер и мэйн уже обёрнуты в общий блок - боди, и белый фон уже задан для него, поэтому удалила отсюда белый фон*/
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.search-button {
+    font-size: 20px;
+    line-height: 36px;
+}
+
+/* подписка */
+
+.subscribe {
+    color: #fff;
+    background-color: #333;
+    background-image: url("../images/subscribe-blur.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.subscribe-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.subscribe-text {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.subscribe-button {
+    font-size: 20px;
+    line-height: 36px;
+    color: #fff;
+    background-color: #82B3D3;
+}
+
+/* футер */
+
+.footer {
+    /*по сути хедер, футер и мэйн уже обёрнуты в общий блок - боди, и белый фон уже задан для него, поэтому удалила отсюда белый фон*/
+    color: #000;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.footer a {
+    color: #000;
+  }
+
+.footer-social {
+    list-style: none;
+}
+
+
+  /* Страница каталога, критерии поиска */
+.filter{
+    color: #fff;
+    background-color: #333;
+    background-image: url("../images/catalog-background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.title {
+    color: inherit;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+}
+
+.main-catalog {
+    /*по сути хедер, футер и мэйн уже обёрнуты в общий блок - боди, и белый фон уже задан для него, поэтому удалила отсюда белый фон*/
+}
+
+.breadcrumbs {
+    list-style: none;
+}
+
+.breadcrumbs-item {
+    color: inherit;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.filter-title {
+    color: inherit;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.filter-control {
+    color: inherit;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.filter-range-input {
+    color: #000;
+    /*по сути хедер, футер и мэйн уже обёрнуты в общий блок - боди, и белый фон уже задан для него, поэтому удалила отсюда белый фон*/
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.button-submit {
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #82B3D3;
+}
+
+.button-transparent {
+    background-color: transparent;
+    color: #fff;
+}
+
+/* результат поиска */
+.sorting-title {
+    color: inherit;
+    /*по сути хедер, футер и мэйн уже обёрнуты в общий блок - боди, и белый фон уже задан для него, поэтому удалила отсюда белый фон*/
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.sorting-uncostly {
+    color: inherit;
+    /*по сути хедер, футер и мэйн уже обёрнуты в общий блок - боди, и белый фон уже задан для него, поэтому удалила отсюда белый фон*/
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.hotels-list {
+    list-style: none;
+}
+
+.hotels-item {
+    width: 340px;
+    height: 438px;
+    /*по сути хедер, футер и мэйн уже обёрнуты в общий блок - боди, и белый фон уже задан для него, поэтому удалила отсюда белый фон*/
+    color: #333; /* как большинство текста в карточке*/
+    border: 1px solid #E6E6E6;
+
+}
+
+.hotels-title {
+    color: #000;
+    /*по сути хедер, футер и мэйн уже обёрнуты в общий блок - боди, и белый фон уже задан для него, поэтому удалила отсюда белый фон*/
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+}
+
+.hotels-favorites {
+    background-color: #82B3D3;
+    color: #fff;
+}
+
+.hotels-favorites-active {
+    background-color: #7DB54F;
+}
+
+.hotels-rating-text {
+    text-transform: uppercase;
+}
+
+/* пагинация */
+.pagination {
+    /*по сути хедер, футер и мэйн уже обёрнуты в общий блок - боди, и белый фон уже задан для него, поэтому удалила отсюда белый фон*/
+}
+
+.pagination-item {
+    list-style: none;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+  }
+
+.pagination-link {
+    color: #ffffff;
+    background-color: #82B3D3;
+    text-decoration: none;
+  }
+
+.pagination-link-current {
+    color: #000;
+    background-color: #F2F2F2;
+}
+
+.pagination-link-more {
+    color: #000;
+    background-color: #fff;
+}
+
+/* подписка в каталоге */
+
+.subscribe-catalog {
+    color: #000;
+    /*по сути хедер, футер и мэйн уже обёрнуты в общий блок - боди, и белый фон уже задан для него, поэтому удалила отсюда белый фон*/
+    text-align: center;
+}
+
+.subscribe-title-catalog {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.subscribe-text-catalog {
+    font-size: 22px;
+    line-height: 26px;
+    color: #333;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
